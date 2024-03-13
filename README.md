@@ -11,7 +11,7 @@ We conducted experiments on the GLUE benchmark using RoBERTa-large.
 |------|		---|			---|	---|	---|	---|	---|	---|	---|	---|	---|
 |Full Fine-tuning|	355M|			68|	96.4|	90.9|	92.4|	92.2|	90.2|	94.7|	86.6|	88.92|
 |LoRA|		0.8M|            		68.2|	96.2|	90.9|	92.6|	91.6|	90.6|	94.8|	87.4|	89.03|
-|T-Tuning(rank : 1)|	0.14M|			69.5|	96.7|	92.2|	91.9|	89.7|	90|	94.3|	88.4|	89.08|
+|######T-Tuning(rank:1)|	0.14M|			69.5|	96.7|	92.2|	91.9|	89.7|	90|	94.3|	88.4|	89.08|
 
 ### E2E NLG Challenge
 We conducted experiments on the E2E NLG Challenge using GPT2-medium.
@@ -19,4 +19,4 @@ We conducted experiments on the E2E NLG Challenge using GPT2-medium.
 |------|		---|			        ---|	---|	---|	  ---|	    ---|	
 |Full Fine-tuning|	354.92M|	68.2|	  8.62|	46.2|	71.0|	2.47|
 |LoRA|		0.35M|            	70.4|	8.85|	46.8|	71.8|	2.53|
-|T-Tuning(rank : 3)|	0.29M|	-|	-|	-|	-|	-|
+|T-Tuning(rank:3)|	0.29M|	-|	-|	-|	-|	-|
